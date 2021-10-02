@@ -2,15 +2,15 @@
 
 ## Overview of Project
 
-Purpose of this challenge was to help Steve determine which stocks were performing well. The challenge was to create a code through VBA that would calculate the results for us quicker than performing it manually. 
+- Purpose of this challenge was to help Steve determine which stocks were performing well. The challenge was to create a code through VBA that would calculate the results for us quicker than performing it manually. 
 
 ## Results
 
-In general, stocks in ![2017](https://github.com/tutran90/stock_analysis/blob/main/2017_Original_VBA_Code_TIme.png)    had a better return compared to stocks in ![2018](https://github.com/tutran90/stock_analysis/blob/main/2018_Original_VBA_Code_Time.png). 
+- In general, stocks in ![2017](https://github.com/tutran90/stock_analysis/blob/main/2017_Original_VBA_Code_TIme.png)    had a better return compared to stocks in ![2018](https://github.com/tutran90/stock_analysis/blob/main/2018_Original_VBA_Code_Time.png). 
 
-    The purpose of this project was to refactor the code to see if it would analyze through a set of worksheets quicker. The time for the original code for both the years ![2017](https://github.com/tutran90/stock_analysis/blob/main/2017_Original_VBA_Code_TIme.png) and ![2018](https://github.com/tutran90/stock_analysis/blob/main/2018_Original_VBA_Code_Time.png) resulted in a negative time. While, the refactored time for ![2017](https://github.com/tutran90/stock_analysis/blob/main/2017_Refactored.png) and for ![2018](https://github.com/tutran90/stock_analysis/blob/main/2018_Refactored.png)resulted in milliseconds. This means that the original code was running longer, which could be a result of where the "startTime" and "endTime" was placed in the code. In the original code it was last macro of Module 1. The results would populate based on what was selected and the call function was used to pull results from each year (which was created on a different macro on the same module). In other terms, this means the clock was already running before the actual code ran the conditions. Itook longer since it had to "call" on other results. Where as the refactored code did not "call" on to different macros in a module. It was all included in 1 subroutine. 
+- The purpose of this project was to refactor the code to see if it would analyze through a set of worksheets quicker. The time for the original code for both the years ![2017](https://github.com/tutran90/stock_analysis/blob/main/2017_Original_VBA_Code_TIme.png) and ![2018](https://github.com/tutran90/stock_analysis/blob/main/2018_Original_VBA_Code_Time.png) resulted in a negative time. While, the refactored time for ![2017](https://github.com/tutran90/stock_analysis/blob/main/2017_Refactored.png) and for ![2018](https://github.com/tutran90/stock_analysis/blob/main/2018_Refactored.png)resulted in milliseconds. This means that the original code was running longer, which could be a result of where the "startTime" and "endTime" was placed in the code. In the original code it was last macro of Module 1. The results would populate based on what was selected and the call function was used to pull results from each year (which was created on a different macro on the same module). In other terms, this means the clock was already running before the actual code ran the conditions. Itook longer since it had to "call" on other results. Where as the refactored code did not "call" on to different macros in a module. It was all included in 1 subroutine. 
 
-    In summary, both codes came up with the same results. The refactored code ran quicker than the original code.
+- In summary, both codes came up with the same results. The refactored code ran quicker than the original code.
 
     
 
@@ -20,7 +20,7 @@ In general, stocks in ![2017](https://github.com/tutran90/stock_analysis/blob/ma
 
 1. Advantages
 
-   The only advantage is that you are not having to work from scratch. 
+   - The only advantage is that you are not having to work from scratch. 
 
 2. Disadvantages
 
